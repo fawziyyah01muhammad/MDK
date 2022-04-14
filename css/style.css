@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0.5, 0, 0.5), rgba(0, 0.5, 0, 0.5)), url(../Kmd.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: 20px;
+}
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 25px;
+    color:wheat;
+}
+h5.pink{
+    color: rgb(216, 174, 216);
+}
+h1{
+    color:rgb(216, 174, 216);
+    word-spacing: 10px;
+    font-size: 50px;
+}
+h4{
+    font-style:italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(139, 138, 138);
+    font-size: 30px;
+    font-variant: small-caps;
+    word-spacing: 10px;
+}
+.container{
+    color: azure;
+    background:linear-gradient(rgb(189, 4, 127), rgb(37, 10, 28));
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+h3{
+    color:bisque;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+    color:azure;
+    font-size: 20px;
+
+}
+p{
+    color: beige;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+flex-basis: 100%;
+margin:0px 30px;
+}
+hr{
+    margin: 0px 30%;
+    border: 1px solid black;
+}
+.hr2{
+    margin: 0px 30%;
+    border: 1px solid grey;
+}
+@media(max-width:958px){
+    body{
+        height: 100vh;
+    }
+    h2{
+        color: white;
+        font-size: 15px;
+    }
+    h5{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 20px;
+        color:wheat;
+    }
+    h5.pink{
+        color: rgb(216, 174, 216);
+    }
+    h1{
+        color:rgb(216, 174, 216);
+        word-spacing: 5px;
+        font-size: 20px;
+    }
+    h4{
+        font-style:italic;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(139, 138, 138);
+        font-size: 15px;
+        font-variant: small-caps;
+        word-spacing: 5px;
+    }
+    .container{
+        color: azure;
+        background:linear-gradient(rgb(189, 4, 127), rgb(37, 10, 28));
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+    h3{
+        color:bisque;
+        font-size: medium;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    span{
+        color:azure;
+        font-size: 15px;
+    
+    }
+    p{
+        color: beige;
+        font-size: 13px;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .col{
+    flex-basis: 100%;
+    margin:0px 10px;
+    }
+    hr{
+        margin: 0px 30%;
+        border: 1px solid black;
+    }
+    .hr2{
+        margin: 0px 30%;
+        border: 1px solid grey;
+    }
+}
